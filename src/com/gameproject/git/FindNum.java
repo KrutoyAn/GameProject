@@ -10,7 +10,6 @@ public class FindNum {
         System.out.println("Your task is to guess the number");
         for(int i = 10; i <= 30; i+=10) playLevel(i);
         console.close();
-
     }
     private static void playLevel(int range){
         int randnum = (int) (Math.random() * range);
